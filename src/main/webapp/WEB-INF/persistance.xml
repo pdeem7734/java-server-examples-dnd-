@@ -1,0 +1,18 @@
+<persistence>
+    <persistence-unit name="DnDSrdDatabase">
+        <class>com.paul.deem.model.ClazzEntity</class>
+        <class>com.paul.deem.model.ClassTableEntity</class>
+        <class>com.paul.deem.model.DomainEntity</class>
+        <class>com.paul.deem.model.EquipmentEntity</class>
+        <class>com.paul.deem.model.FeatEntity</class>
+        <class>com.paul.deem.model.ItemEntity</class>
+        <class>com.paul.deem.model.MonsterEntity</class>
+        <class>com.paul.deem.model.PowerEntity</class>
+        <class>com.paul.deem.model.SkillEntity</class>
+        <class>com.paul.deem.model.SpellEntity</class>
+        <properties>
+            <provider>org.hibernate.ejb.HibernatePersistence</provider>
+            <jta-data-source>java:/MySqlDS</jta-data-source>
+        </properties>
+    </persistence-unit>
+</persistence>
