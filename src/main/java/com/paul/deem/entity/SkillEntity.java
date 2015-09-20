@@ -1,4 +1,4 @@
-package com.paul.deem.model;
+package com.paul.deem.entity;
 
 import javax.persistence.*;
 

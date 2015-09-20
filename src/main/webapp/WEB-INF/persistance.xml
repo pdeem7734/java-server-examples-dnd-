@@ -1,15 +1,15 @@
 <persistence>
     <persistence-unit name="DnDSrdDatabase">
-        <class>com.paul.deem.model.ClazzEntity</class>
-        <class>com.paul.deem.model.ClassTableEntity</class>
-        <class>com.paul.deem.model.DomainEntity</class>
-        <class>com.paul.deem.model.EquipmentEntity</class>
-        <class>com.paul.deem.model.FeatEntity</class>
-        <class>com.paul.deem.model.ItemEntity</class>
-        <class>com.paul.deem.model.MonsterEntity</class>
-        <class>com.paul.deem.model.PowerEntity</class>
-        <class>com.paul.deem.model.SkillEntity</class>
-        <class>com.paul.deem.model.SpellEntity</class>
+        <class>com.paul.deem.entity.ClazzEntity</class>
+        <class>com.paul.deem.entity.ClassTableEntity</class>
+        <class>com.paul.deem.entity.DomainEntity</class>
+        <class>com.paul.deem.entity.EquipmentEntity</class>
+        <class>com.paul.deem.entity.FeatEntity</class>
+        <class>com.paul.deem.entity.ItemEntity</class>
+        <class>com.paul.deem.entity.MonsterEntity</class>
+        <class>com.paul.deem.entity.PowerEntity</class>
+        <class>com.paul.deem.entity.SkillEntity</class>
+        <class>com.paul.deem.entity.SpellEntity</class>
         <properties>
             <provider>org.hibernate.ejb.HibernatePersistence</provider>
             <jta-data-source>java:/MySqlDS</jta-data-source>
